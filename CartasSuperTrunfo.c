@@ -6,7 +6,7 @@ int main() {
 
    printf ("Desafio super trunfo Basico \n");
    
-   int pontos_turisticos;
+   int pontosturisticos;
    float populacao, area, PIB;
    char codigodacidade[50];
    char nome[100];
@@ -27,14 +27,14 @@ int main() {
    scanf("%f", &PIB);
 
    printf("Pontos Turisticos: \n");
-   scanf("%d", &pontos_turisticos);
+   scanf("%d", &pontosturisticos);
 
    printf("Nome da Cidade: %s \n", nome);
    printf("Codigo da Cidade: %s \n", codigodacidade);
    printf("População: %f \n", populacao);
    printf("Área: %f \n", area);
    printf("PIB: %f \n", PIB),
-   printf("Pontos Turisticos: %d \n", pontos_turisticos);
+   printf("Pontos Turisticos: %d \n", pontosturisticos);
 
 
 
